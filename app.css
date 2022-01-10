@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+/* Navigation starts */
+.navbar {
+  background: url(images/image-geometry-1.png);
+  background-repeat: no-repeat;
+  display: flex;
+  height: 95px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Welcome section starts */
+.section {
+  background: url(images/image-geometry-2.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  align-items: center;
+  gap: 25px;
+}
+
+p {
+  font-family: Poppins, serif;
+  width: 90vw;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.section h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 400;
+  width: 90vw;
+}
+
+.start {
+  font-family: Poppins, serif;
+  font-weight: 500;
+  width: 95vw;
+  color: #ffff;
+  background-color: #1a2236;
+  height: 50px;
+}
+
+/* Button hovers */
+.start:hover {
+  background-color: #ffff;
+  color: #1a2236;
+  cursor: pointer;
+}
+
+.start:active {
+  border: 2px solid #1a2236;
+  cursor: pointer;
+}
+
+#menu-icon {
+  width: 8vw;
+  height: 20px;
+}
+
+/* Projects section start here */
+.projects {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.projects h2 {
+  width: 80vw;
+  height: 85px;
+  font-family: Playfair Display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  padding-left: 15px;
+}
+
+.images {
+  width: 100vw;
+  height: 186px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a2236;
+  font-family: Poppins, serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  height: 336px;
+}
+
+.card h2 {
+  font-family: Poppins, serif;
+  font-weight: 300;
+  font-size: 20px;
+  width: 85vw;
+  height: 16px;
+  padding-top: 15px;
+}
+
+.card ul {
+  display: flex;
+  gap: 8px;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+
+.card ul li {
+  text-align: center;
+  font-size: 10px;
+  list-style: none;
+  height: 20px;
+  width: 30vw;
+  background-color: #98dede;
+  color: #324556;
+}
+
+.see {
+  height: 34px;
+  width: 65vw;
+  align-self: flex-start;
+  font-family: Poppins, serif;
+  font-weight: 500;
+  background-color: inherit;
+  border: 1px solid white;
+  color: #fff;
+  margin-top: 12px;
+  margin-left: 14px;
+}
+
+/* Button hovers */
+.see:hover {
+  background-color: #ffff;
+  color: #1a2236;
+  cursor: pointer;
+}
+
+.see:active {
+  border: 2px solid #1a2236;
+  cursor: pointer;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.about h2 {
+  font-family: Playfair Display, serif;
+  font-weight: 400;
+  font-size: 50px;
+  padding-left: 18px;
+  padding-bottom: 13px;
+  align-self: flex-start;
+}
+
+.about p {
+  align-self: center;
+  width: 88vw;
+  height: 200px;
+}
+
+.about button {
+  font-family: Poppins, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffff;
+  background-color: #1a2236;
+  height: 50px;
+  width: 90vw;
+}
+
+/* Button hovers */
+.about button:hover {
+  background-color: #ffff;
+  color: #1a2236;
+}
+
+.about button:visited {
+  border: 2px solid #1a2236;
+}
+
+/* Skills section */
+.skills {
+  height: 900px;
+  display: grid;
+  grid-template-columns: 295px;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 40px;
+}
+
+.skill1 {
+  background: #1c528a;
+}
+
+.skill2 {
+  background: #e2505c;
+}
+
+.skill3 {
+  background: #febf52;
+}
+
+.skills ul {
+  padding: 50px 50px 53px 50px;
+}
+
+.skills ul li {
+  font-family: Poppins, serif;
+  font-weight: 600;
+  color: #fff;
+  align-self: center;
+  list-style-position: inside;
+}
+
+.leader {
+  width: 180px;
+  list-style: none;
+  font-family: Poppins, serif;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  padding-bottom: 21px;
+}
