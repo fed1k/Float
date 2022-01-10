@@ -116,13 +116,15 @@ p {
 }
 
 .card ul {
-  display: flex;
-  gap: 8px;
+  /* display: flex;
+  gap: 8px; */
   padding-top: 40px;
   padding-left: 15px;
 }
 
 .card ul li {
+  float: left;
+  margin: 0 4px 0 4px;
   text-align: center;
   font-size: 10px;
   list-style: none;
